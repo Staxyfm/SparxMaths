@@ -1,6 +1,7 @@
 {
   "manifest_version": 3,
   "name": "SparxExt Lite",
+  "author": "https://varunaditya.xyz",
   "description": "The open source SparxMaths solving extension with AutoBookworks™",
   "version": "1.0",
   "permissions": [
