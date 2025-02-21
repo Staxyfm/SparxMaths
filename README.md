@@ -44,9 +44,13 @@ If you want a faster version, get the full version of SparxExt at [discord.gg/pS
 - 🏛️&nbsp;Modern answer cards
 <br><br>
 
+<h2>Ⓒ License</h2>
+You are <b>allowed to commercialise and modify</b> SparxExt Lite, and <b>distribute it</b>. You are also allowed to <b>use it privately and customise it to your liking</b>. You <b>do not carry its liability or warranty to it</b>. When commercialising, you <b>must include a License and copyright notice</b>, and <b>state the changes</b> you made. You must also <b>discolse the original source</b> of it (this GitHub repository). You must also use the same GNU General Public License v2.0 license when commercialising it.<br><br>
+
+
 <h2>✐ Notes</h2>
-This is a free version of my SparxExt extension. If you want a faster, and overall better extension with many more features, consider checking out the full version (you can get a 3-day free trial). Also, this is licensed under the [add] license.
+This is a free version of my SparxExt extension. If you want a faster, and overall better extension with many more features, consider checking out the full version (you can get a 3-day free trial).
 
 <br /><br /><br />
 ∗ Made by Varun<br >
-Copyright © 2023 ⁠[thevarunaditya](https://github.com/thevarunaditya)
+Copyright © 2023 ⁠[varunaditya-plus](https://github.com/varunaditya-plus)
