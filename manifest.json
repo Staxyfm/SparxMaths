@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "SparxExt Lite",
+  "description": "The open source SparxMaths solving extension with AutoBookworks™",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "tabs",
+    "webRequest",
+    "declarativeNetRequestWithHostAccess",
+    "declarativeNetRequest",
+    "debugger"
+  ],
+  "host_permissions": [
+    "https://sparxmaths.uk/*",
+    "https://*.sparxmaths.uk/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://sparxmaths.uk/*", "https://www.sparxmaths.uk/*"],
+      "js": ["main/sparxmaths.js", "deps/h2c.js", "deps/helpers.js"],
+      "css": ["main/sparxmaths.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["icon.png"],
+      "matches": ["https://sparxmaths.uk/*", "https://www.sparxmaths.uk/*"]
+    },
+    {
+      "resources": [ "deps/h2c.js" ],
+      "matches": ["https://sparxmaths.uk/*", "https://www.sparxmaths.uk/*"]
+    }
+  ],
+  "background": { "service_worker": "main/bookworks.js" },
+  "icons": { "16": "icon.png", "48": "icon.png", "128": "icon.png" },
+  "content_security_policy": { "extension_page":"script-src 'self' 'wasm-unsafe-eval'; object-src 'self'" }
+}

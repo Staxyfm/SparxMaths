@@ -1,0 +1,3 @@
+SparxExt v2.2
+- SparxReader added
+- SparxReader custom styles added
