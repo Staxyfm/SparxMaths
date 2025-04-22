@@ -15,12 +15,12 @@
     "debugger"
   ],
   "host_permissions": [
-    "https://sparxmaths.uk/*",
-    "https://*.sparxmaths.uk/*"
+    "https://maths.sparx-learning.com/*",
+    "https://*.maths.sparx-learning.com/*"
   ],
   "content_scripts": [
     {
-      "matches": ["https://sparxmaths.uk/*", "https://www.sparxmaths.uk/*"],
+      "matches": ["https://maths.sparx-learning.com/*", "https://www.maths.sparx-learning.com/*"],
       "js": ["main/sparxmaths.js", "deps/h2c.js", "deps/helpers.js"],
       "css": ["main/sparxmaths.css"]
     }
@@ -28,11 +28,11 @@
   "web_accessible_resources": [
     {
       "resources": ["icon.png"],
-      "matches": ["https://sparxmaths.uk/*", "https://www.sparxmaths.uk/*"]
+      "matches": ["https://maths.sparx-learning.com/*", "https://www.maths.sparx-learning.com/*"]
     },
     {
       "resources": [ "deps/h2c.js" ],
-      "matches": ["https://sparxmaths.uk/*", "https://www.sparxmaths.uk/*"]
+      "matches": ["https://maths.sparx-learning.com/*", "https://www.maths.sparx-learning.com/*"]
     }
   ],
   "background": { "service_worker": "main/bookworks.js" },
